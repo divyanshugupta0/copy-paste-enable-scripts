@@ -1,0 +1,6 @@
+keyboard
+pyperclip
+pywin32; platform_system == "Windows"
+psutil
+python-xlib; platform_system == "Linux"
+pyobjc; platform_system == "Darwin"
