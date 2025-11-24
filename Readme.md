@@ -46,8 +46,8 @@ Perfect for bypassing restrictions in exam browsers, remote desktop software, se
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/divyanshugupta0/clipboard-protection-service.git
-cd clipboard-protection-service
+git clone https://github.com/divyanshugupta0/copy-paste-enable-script.git
+cd copy-paste-enable-script
 ```
 
 ### 2. Install Dependencies
