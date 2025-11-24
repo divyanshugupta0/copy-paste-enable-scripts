@@ -46,8 +46,8 @@ Perfect for bypassing restrictions in exam browsers, remote desktop software, se
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/divyanshugupta0/copy-paste-enable-script.git
-cd copy-paste-enable-script
+git clone https://github.com/divyanshugupta0/copy-paste-enable-scripts.git
+cd copy-paste-enable-scripts
 ```
 
 ### 2. Install Dependencies
