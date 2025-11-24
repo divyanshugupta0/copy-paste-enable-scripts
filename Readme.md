@@ -60,7 +60,7 @@ pip install pywin32 psutil
 
 Or using requirements:
 ```bash
-pip install -r requirements-windows.txt
+pip install -r requirements.txt
 ```
 
 #### Linux
