@@ -98,7 +98,7 @@ pip install -r requirements-macos.txt
 Simply run the script:
 
 ```bash
-python clipboard_protection_service.py
+python copy-paste-enable-scriptse.py
 ```
 
 ### Run as Background Service
@@ -112,7 +112,7 @@ python clipboard_protection_service.py
 Or use Task Scheduler:
 ```bash
 # Run with elevated privileges
-pythonw clipboard_protection_service.py
+pythonw copy-paste-enable-scriptse.py
 ```
 
 #### Linux (systemd service)
@@ -133,7 +133,7 @@ After=network.target
 [Service]
 Type=simple
 User=your linux machine username
-ExecStart=/usr/bin/python3 /path/to/clipboard_protection_service.py
+ExecStart=/usr/bin/python3 /path/to/copy-paste-enable-scriptse.py
 Restart=on-failure
 
 [Install]
@@ -173,7 +173,7 @@ Add the following content:
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python3</string>
-        <string>/path/to/clipboard_protection_service.py</string>
+        <string>/path/to/copy-paste-enable-scriptse.py</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
@@ -256,7 +256,7 @@ This tool is intended for **personal use** and **legitimate purposes** only:
 ```bash
 # Run as Administrator
 # Right-click Command Prompt → "Run as administrator"
-python clipboard_protection_service.py
+python copy-paste-enable-scriptse.py
 ```
 
 **Issue:** Import errors
@@ -269,7 +269,7 @@ pip install --upgrade pywin32 psutil
 **Issue:** "Permission denied"
 ```bash
 # Run with sudo
-sudo python3 clipboard_protection_service.py
+sudo python3 copy-paste-enable-scriptse.py
 ```
 
 **Issue:** X11 errors
