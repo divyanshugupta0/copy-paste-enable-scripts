@@ -132,7 +132,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=divyanshugupta0
+User=your linux machine username
 ExecStart=/usr/bin/python3 /path/to/clipboard_protection_service.py
 Restart=on-failure
 
