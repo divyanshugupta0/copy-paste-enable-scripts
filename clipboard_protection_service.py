@@ -15,7 +15,7 @@ import time
 import subprocess
 
 OS_TYPE = platform.system()
-RECHECK_INTERVAL = 3  # Seconds to wait before re-enabling clipboard developed by Divyanshu Gupta
+RECHECK_INTERVAL = 3  # Seconds to wait before re-enabling clipboard developed by Divyanshu Rudra Gupta
 
 if OS_TYPE == "Windows":
     import win32api
